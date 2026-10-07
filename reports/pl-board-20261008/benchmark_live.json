@@ -1,0 +1,50 @@
+{
+  "operation": "BGR L1 open",
+  "samples": 15,
+  "shape": [
+    480,
+    640,
+    3
+  ],
+  "cpu": {
+    "mean_ms": 161.0557363333328,
+    "p50_ms": 160.84148900006312,
+    "p95_ms": 162.38114789999827,
+    "p99_ms": 163.1369311799358,
+    "max_ms": 163.32587699992018
+  },
+  "pl": {
+    "mean_ms": 107.89405313335767,
+    "p50_ms": 107.76532300008057,
+    "p95_ms": 108.83043970001154,
+    "p99_ms": 110.43275594004399,
+    "max_ms": 110.8333350000521
+  },
+  "exact_match": true,
+  "speedup": 1.492721161696159,
+  "host": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+  "images": [
+    {
+      "file": "1746296782814562381.jpg",
+      "foreground_pixels": 105638,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "1746296783414640700.jpg",
+      "foreground_pixels": 101553,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "1746296783978520724.jpg",
+      "foreground_pixels": 102518,
+      "mismatched_pixels": 0
+    }
+  ],
+  "background_bgr": [
+    145,
+    140,
+    136
+  ],
+  "threshold": 100,
+  "evidence_dir": "report/pl_board_20261008/live"
+}

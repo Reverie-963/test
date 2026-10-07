@@ -1,0 +1,85 @@
+{
+  "operation": "BGR L1 open",
+  "samples": 200,
+  "shape": [
+    480,
+    640,
+    3
+  ],
+  "cpu": {
+    "mean_ms": 157.968566964999,
+    "p50_ms": 156.59136000004992,
+    "p95_ms": 167.98650089992861,
+    "p99_ms": 184.89313182005048,
+    "max_ms": 187.02695999991192
+  },
+  "pl": {
+    "mean_ms": 105.49406526999917,
+    "p50_ms": 103.66047900004105,
+    "p95_ms": 119.3872167500615,
+    "p99_ms": 124.21680740000397,
+    "max_ms": 192.3624490000293
+  },
+  "exact_match": true,
+  "speedup": 1.4974166230175865,
+  "host": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+  "images": [
+    {
+      "file": "1746293899356483904.jpg",
+      "foreground_pixels": 182481,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "1746293904858634512.jpg",
+      "foreground_pixels": 173912,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "1746293909928601138.jpg",
+      "foreground_pixels": 173321,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "1746293914998606195.jpg",
+      "foreground_pixels": 173174,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "1746294407406283283.jpg",
+      "foreground_pixels": 97583,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "1746295623221693902.jpg",
+      "foreground_pixels": 87059,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "1746295628291712534.jpg",
+      "foreground_pixels": 79816,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "1746295633361909001.jpg",
+      "foreground_pixels": 79855,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "1746295638467873122.jpg",
+      "foreground_pixels": 79911,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "1746295643567956111.jpg",
+      "foreground_pixels": 80283,
+      "mismatched_pixels": 0
+    }
+  ],
+  "background_bgr": [
+    145,
+    140,
+    136
+  ],
+  "threshold": 100,
+  "evidence_dir": "report/pl_board_20261008/photos_tuned"
+}

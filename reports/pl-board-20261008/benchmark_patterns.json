@@ -1,0 +1,95 @@
+{
+  "operation": "BGR L1 open",
+  "samples": 60,
+  "shape": [
+    480,
+    640,
+    3
+  ],
+  "cpu": {
+    "mean_ms": 158.29302574999912,
+    "p50_ms": 156.7405135000115,
+    "p95_ms": 162.65189254998234,
+    "p99_ms": 166.5133662900132,
+    "max_ms": 167.4566400000117
+  },
+  "pl": {
+    "mean_ms": 105.62303148332997,
+    "p50_ms": 103.7969439999813,
+    "p95_ms": 108.08249699999236,
+    "p99_ms": 119.55200839996957,
+    "max_ms": 130.1679019999824
+  },
+  "exact_match": true,
+  "speedup": 1.4986601267450066,
+  "host": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+  "images": [
+    {
+      "file": "00_background.png",
+      "foreground_pixels": 0,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "01_foreground.png",
+      "foreground_pixels": 307200,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "02_edges_and_blocks.png",
+      "foreground_pixels": 12400,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "03_isolated_noise.png",
+      "foreground_pixels": 0,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "04_thin_stripes.png",
+      "foreground_pixels": 7920,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "05_threshold_and_channels.png",
+      "foreground_pixels": 61200,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "06_holes_and_noise.png",
+      "foreground_pixels": 70400,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "07_random_rgb.png",
+      "foreground_pixels": 279776,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "08_checkerboard.png",
+      "foreground_pixels": 0,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "09_dense_random_mask.png",
+      "foreground_pixels": 98024,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "10_last_rows_columns.png",
+      "foreground_pixels": 3351,
+      "mismatched_pixels": 0
+    },
+    {
+      "file": "11_first_rows_columns.png",
+      "foreground_pixels": 3351,
+      "mismatched_pixels": 0
+    }
+  ],
+  "background_bgr": [
+    17,
+    83,
+    149
+  ],
+  "threshold": 100,
+  "evidence_dir": "report/pl_board_20261008/patterns"
+}

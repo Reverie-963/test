@@ -1,0 +1,343 @@
+{
+  "record_date_client": "2026-10-08",
+  "board": "PYNQ-Z2",
+  "operation": "BGR L1 threshold + 3x3 morphology open",
+  "shape": [
+    480,
+    640,
+    3
+  ],
+  "measured_comparisons": 475,
+  "all_exact_match": true,
+  "downloaded_image_pairs_verified": 35,
+  "runs": {
+    "photos": {
+      "operation": "BGR L1 open",
+      "samples": 200,
+      "shape": [
+        480,
+        640,
+        3
+      ],
+      "cpu": {
+        "mean_ms": 159.41656954999956,
+        "p50_ms": 159.88008300001866,
+        "p95_ms": 165.36236380001696,
+        "p99_ms": 175.14871741996836,
+        "max_ms": 187.43935399999145
+      },
+      "pl": {
+        "mean_ms": 107.26289284499784,
+        "p50_ms": 107.37938450000684,
+        "p95_ms": 117.48701935000834,
+        "p99_ms": 126.50754668003454,
+        "max_ms": 147.7921289999813
+      },
+      "exact_match": true,
+      "speedup": 1.486222917559825,
+      "host": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+      "images": [
+        {
+          "file": "1746293899356483904.jpg",
+          "foreground_pixels": 307198,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746293904858634512.jpg",
+          "foreground_pixels": 307197,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746293909928601138.jpg",
+          "foreground_pixels": 307198,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746293914998606195.jpg",
+          "foreground_pixels": 307198,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746294407406283283.jpg",
+          "foreground_pixels": 307200,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746295623221693902.jpg",
+          "foreground_pixels": 307200,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746295628291712534.jpg",
+          "foreground_pixels": 307200,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746295633361909001.jpg",
+          "foreground_pixels": 307200,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746295638467873122.jpg",
+          "foreground_pixels": 307200,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746295643567956111.jpg",
+          "foreground_pixels": 307200,
+          "mismatched_pixels": 0
+        }
+      ],
+      "background_bgr": [
+        240,
+        240,
+        240
+      ],
+      "threshold": 100,
+      "evidence_dir": "report/pl_board_20261008/photos"
+    },
+    "patterns": {
+      "operation": "BGR L1 open",
+      "samples": 60,
+      "shape": [
+        480,
+        640,
+        3
+      ],
+      "cpu": {
+        "mean_ms": 158.29302574999912,
+        "p50_ms": 156.7405135000115,
+        "p95_ms": 162.65189254998234,
+        "p99_ms": 166.5133662900132,
+        "max_ms": 167.4566400000117
+      },
+      "pl": {
+        "mean_ms": 105.62303148332997,
+        "p50_ms": 103.7969439999813,
+        "p95_ms": 108.08249699999236,
+        "p99_ms": 119.55200839996957,
+        "max_ms": 130.1679019999824
+      },
+      "exact_match": true,
+      "speedup": 1.4986601267450066,
+      "host": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+      "images": [
+        {
+          "file": "00_background.png",
+          "foreground_pixels": 0,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "01_foreground.png",
+          "foreground_pixels": 307200,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "02_edges_and_blocks.png",
+          "foreground_pixels": 12400,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "03_isolated_noise.png",
+          "foreground_pixels": 0,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "04_thin_stripes.png",
+          "foreground_pixels": 7920,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "05_threshold_and_channels.png",
+          "foreground_pixels": 61200,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "06_holes_and_noise.png",
+          "foreground_pixels": 70400,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "07_random_rgb.png",
+          "foreground_pixels": 279776,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "08_checkerboard.png",
+          "foreground_pixels": 0,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "09_dense_random_mask.png",
+          "foreground_pixels": 98024,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "10_last_rows_columns.png",
+          "foreground_pixels": 3351,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "11_first_rows_columns.png",
+          "foreground_pixels": 3351,
+          "mismatched_pixels": 0
+        }
+      ],
+      "background_bgr": [
+        17,
+        83,
+        149
+      ],
+      "threshold": 100,
+      "evidence_dir": "report/pl_board_20261008/patterns"
+    },
+    "photos_tuned": {
+      "operation": "BGR L1 open",
+      "samples": 200,
+      "shape": [
+        480,
+        640,
+        3
+      ],
+      "cpu": {
+        "mean_ms": 157.968566964999,
+        "p50_ms": 156.59136000004992,
+        "p95_ms": 167.98650089992861,
+        "p99_ms": 184.89313182005048,
+        "max_ms": 187.02695999991192
+      },
+      "pl": {
+        "mean_ms": 105.49406526999917,
+        "p50_ms": 103.66047900004105,
+        "p95_ms": 119.3872167500615,
+        "p99_ms": 124.21680740000397,
+        "max_ms": 192.3624490000293
+      },
+      "exact_match": true,
+      "speedup": 1.4974166230175865,
+      "host": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+      "images": [
+        {
+          "file": "1746293899356483904.jpg",
+          "foreground_pixels": 182481,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746293904858634512.jpg",
+          "foreground_pixels": 173912,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746293909928601138.jpg",
+          "foreground_pixels": 173321,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746293914998606195.jpg",
+          "foreground_pixels": 173174,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746294407406283283.jpg",
+          "foreground_pixels": 97583,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746295623221693902.jpg",
+          "foreground_pixels": 87059,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746295628291712534.jpg",
+          "foreground_pixels": 79816,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746295633361909001.jpg",
+          "foreground_pixels": 79855,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746295638467873122.jpg",
+          "foreground_pixels": 79911,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746295643567956111.jpg",
+          "foreground_pixels": 80283,
+          "mismatched_pixels": 0
+        }
+      ],
+      "background_bgr": [
+        145,
+        140,
+        136
+      ],
+      "threshold": 100,
+      "evidence_dir": "report/pl_board_20261008/photos_tuned"
+    },
+    "live": {
+      "operation": "BGR L1 open",
+      "samples": 15,
+      "shape": [
+        480,
+        640,
+        3
+      ],
+      "cpu": {
+        "mean_ms": 161.0557363333328,
+        "p50_ms": 160.84148900006312,
+        "p95_ms": 162.38114789999827,
+        "p99_ms": 163.1369311799358,
+        "max_ms": 163.32587699992018
+      },
+      "pl": {
+        "mean_ms": 107.89405313335767,
+        "p50_ms": 107.76532300008057,
+        "p95_ms": 108.83043970001154,
+        "p99_ms": 110.43275594004399,
+        "max_ms": 110.8333350000521
+      },
+      "exact_match": true,
+      "speedup": 1.492721161696159,
+      "host": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+      "images": [
+        {
+          "file": "1746296782814562381.jpg",
+          "foreground_pixels": 105638,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746296783414640700.jpg",
+          "foreground_pixels": 101553,
+          "mismatched_pixels": 0
+        },
+        {
+          "file": "1746296783978520724.jpg",
+          "foreground_pixels": 102518,
+          "mismatched_pixels": 0
+        }
+      ],
+      "background_bgr": [
+        145,
+        140,
+        136
+      ],
+      "threshold": 100,
+      "evidence_dir": "report/pl_board_20261008/live"
+    }
+  },
+  "bitfile_sha256": "f65a1d973cdd1d17303775f9277831ba69eb4151af86451185ab920ee45686ef",
+  "hwh_sha256": "8a78ac52de95d50f0070439e77ad72113ab458db57e3dbae4e00642e41422908",
+  "environment_fix": "sudo env XILINX_XRT=/usr /usr/local/share/pynq-venv/bin/python3 ...",
+  "limitations": [
+    "Original background [240,240,240] produces nearly all-foreground masks on these photos.",
+    "Photo test background [145,140,136] is for validation only, not an accepted scene calibration.",
+    "Synthetic background [17,83,149] checks asymmetric BGR channels and threshold 99/100/101.",
+    "Operational config.json was not overwritten; no robot movement was executed.",
+    "This validates the image kernel, not YOLO accuracy, encoder inputs or sorting success.",
+    "Board wall clock is unsynchronized (2025-05-03); report date comes from client 2026-10-08. Timings use perf_counter.",
+    "Speedup is against the existing NumPy/OpenCV CPU reference; it is not a whole-system FPS claim."
+  ],
+  "sharing_note": "Report-only export; board network address and operational configuration snapshot excluded."
+}
